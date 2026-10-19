@@ -1,0 +1,1 @@
+How does Layer.provide in Effect v4 perform circular dependency detection or memoization when composing nested services? Trace Layer.build down to its internal representation and explain the role of MemoMap during service instantiation.

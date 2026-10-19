@@ -1,0 +1,25 @@
+{
+  "agentId": "CCA",
+  "versionId": "0.0.1",
+  "model": "deepseek-v4-flash",
+  "provider": "opencode-go",
+  "systemPrompt": {
+    "mode": "replace",
+    "file": "0.0.1.system.md"
+  },
+  "tools": {
+    "mode": "all"
+  },
+  "extensions": {
+    "isolate": false,
+    "sources": [
+      "../pi-agent-framework/pi-session-record"
+    ]
+  },
+  "skills": {
+    "isolate": false,
+    "names": [
+      "Constructionist-Cognitive-Apprenticeship"
+    ]
+  }
+}

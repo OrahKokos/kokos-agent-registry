@@ -1,0 +1,9 @@
+{
+  "file_scan_exclusions": ["**/repos/**", ".git/"],
+  "format_on_save": "on",
+  "formatter": {
+    "language_server": {
+      "name": "oxfmt"
+    }
+  }
+}
